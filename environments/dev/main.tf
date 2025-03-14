@@ -18,5 +18,5 @@ module "eks" {
   desired_size      = var.desired_size
   max_size          = var.max_size
   min_size          = var.min_size
-  instance_types    = var.instance_types #testing
+  instance_types    = var.instance_types #testing-again
 }

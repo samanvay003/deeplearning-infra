@@ -1,14 +1,4 @@
 version: 3
 projects:
 - dir: environments/dev
-  workflow: terraform
-workflows:
-  terraform:
-    plan:
-      steps:
-      - init
-      - plan
-    apply:
-      steps:
-      - init
-      - apply
+  
